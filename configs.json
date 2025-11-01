@@ -1,1 +1,26 @@
+{
+  "proxyMode": "static",
+  "skipInvalidProxy": false,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 86400,
+  "howManyAccountsRunInOneTime": 1,
 
+  "redeemTokens": false,
+  "closePositions": true,
+
+  "tradeLongShort": {
+    "enabled": true,
+    "amountUSD": [5, 15]
+  },
+
+  "captcha": {
+    "provider": "2captcha",
+    "providers": {
+      "2captcha": { "apiKey": "YOUR_2CAPTCHA_KEY" },
+      "anticaptcha": { "apiKey": "YOUR_ANTICAPTCHA_KEY" }
+    }
+  },
+  "proxy": {
+    "useProxies": true
+  }
+}
