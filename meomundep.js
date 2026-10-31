@@ -1,1 +1,1 @@
-console.log(`Just wait for enough stars...`)
+console.log(`Ended this project`);
